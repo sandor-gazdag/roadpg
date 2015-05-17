@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		103CFAC52695B947113DF8A5 /* ROADGeneratedAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = B59FA19FE041339DF829DBAB /* ROADGeneratedAttribute.m */; };
+		154630C582B9FA7E1AF6D929 /* ROADGeneratedAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B156FD420A04F77979DA1D /* ROADGeneratedAttribute.m */; };
+		9056E216E43FF62EF1D009BE /* libPods-roadpg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2195B26D182F4BC7D6010E0 /* libPods-roadpg.a */; };
+		93712C394B0A85FCBA914668 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 430CD62E12C1D707278C643C /* libPods.a */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D7D877BA52422FA620309E6F /* libPods-roadpgTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8013A4EE4778FD989CF993D5 /* libPods-roadpgTests.a */; };
 		EFE4F9D01B064646003ED4A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE4F9CF1B064646003ED4A1 /* main.m */; };
 		EFE4F9D31B064646003ED4A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE4F9D21B064646003ED4A1 /* AppDelegate.m */; };
-		EFE4F9D61B064646003ED4A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE4F9D51B064646003ED4A1 /* ViewController.m */; };
 		EFE4F9D91B064646003ED4A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE4F9D71B064646003ED4A1 /* Main.storyboard */; };
 		EFE4F9DB1B064646003ED4A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE4F9DA1B064646003ED4A1 /* Images.xcassets */; };
 		EFE4F9DE1B064646003ED4A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFE4F9DC1B064646003ED4A1 /* LaunchScreen.xib */; };
-		EFE4F9EA1B064646003ED4A1 /* roadpgTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE4F9E91B064646003ED4A1 /* roadpgTests.m */; };
+		EFE4FA0E1B064D8A003ED4A1 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE4F9F71B064D8A003ED4A1 /* BaseModel.m */; };
+		EFE4FA0F1B064D8A003ED4A1 /* Clone.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE4F9F91B064D8A003ED4A1 /* Clone.m */; };
+		EFE4FA101B064D8A003ED4A1 /* Links.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE4F9FB1B064D8A003ED4A1 /* Links.m */; };
+		EFE4FA111B064D8A003ED4A1 /* Owner.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE4F9FD1B064D8A003ED4A1 /* Owner.m */; };
+		EFE4FA121B064D8A003ED4A1 /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE4F9FF1B064D8A003ED4A1 /* Repository.m */; };
+		EFE4FA131B064D8A003ED4A1 /* RepositoryCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE4FA011B064D8A003ED4A1 /* RepositoryCollection.m */; };
+		EFE4FA141B064D8A003ED4A1 /* URLResource.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE4FA031B064D8A003ED4A1 /* URLResource.m */; };
+		EFE4FA151B064D8A003ED4A1 /* RepositoryDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE4FA061B064D8A003ED4A1 /* RepositoryDataProvider.m */; };
+		EFE4FA161B064D8A003ED4A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE4FA0A1B064D8A003ED4A1 /* ViewController.m */; };
+		EFE4FA171B064D8A003ED4A1 /* RFWebServiceClient+RPRepositories.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE4FA0D1B064D8A003ED4A1 /* RFWebServiceClient+RPRepositories.m */; };
+		EFE4FA191B064DBA003ED4A1 /* RepositoryDataProviderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE4FA181B064DBA003ED4A1 /* RepositoryDataProviderTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +41,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03B156FD420A04F77979DA1D /* ROADGeneratedAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ROADGeneratedAttribute.m; path = roadpgTests/ROADGeneratedAttributes/ROADGeneratedAttribute.m; sourceTree = "<group>"; };
+		090F02C5B630A6C536D31011 /* Pods-roadpg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-roadpg.debug.xcconfig"; path = "Pods/Target Support Files/Pods-roadpg/Pods-roadpg.debug.xcconfig"; sourceTree = "<group>"; };
+		30E3C6891457B92604D011CB /* Pods-roadpgTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-roadpgTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-roadpgTests/Pods-roadpgTests.debug.xcconfig"; sourceTree = "<group>"; };
+		430CD62E12C1D707278C643C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		60A9E127A480C5FDADAA5EF2 /* Pods-roadpgTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-roadpgTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-roadpgTests/Pods-roadpgTests.release.xcconfig"; sourceTree = "<group>"; };
+		8013A4EE4778FD989CF993D5 /* libPods-roadpgTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-roadpgTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2195B26D182F4BC7D6010E0 /* libPods-roadpg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-roadpg.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59FA19FE041339DF829DBAB /* ROADGeneratedAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ROADGeneratedAttribute.m; path = roadpg/ROADGeneratedAttributes/ROADGeneratedAttribute.m; sourceTree = "<group>"; };
 		EFE4F9CA1B064646003ED4A1 /* roadpg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = roadpg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE4F9CE1B064646003ED4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFE4F9CF1B064646003ED4A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFE4F9D11B064646003ED4A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFE4F9D21B064646003ED4A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EFE4F9D41B064646003ED4A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EFE4F9D51B064646003ED4A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EFE4F9D81B064646003ED4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFE4F9DA1B064646003ED4A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EFE4F9DD1B064646003ED4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EFE4F9E31B064646003ED4A1 /* roadpgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = roadpgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE4F9E81B064646003ED4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFE4F9E91B064646003ED4A1 /* roadpgTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = roadpgTests.m; sourceTree = "<group>"; };
+		EFE4F9F61B064D8A003ED4A1 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		EFE4F9F71B064D8A003ED4A1 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		EFE4F9F81B064D8A003ED4A1 /* Clone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clone.h; sourceTree = "<group>"; };
+		EFE4F9F91B064D8A003ED4A1 /* Clone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clone.m; sourceTree = "<group>"; };
+		EFE4F9FA1B064D8A003ED4A1 /* Links.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Links.h; sourceTree = "<group>"; };
+		EFE4F9FB1B064D8A003ED4A1 /* Links.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Links.m; sourceTree = "<group>"; };
+		EFE4F9FC1B064D8A003ED4A1 /* Owner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Owner.h; sourceTree = "<group>"; };
+		EFE4F9FD1B064D8A003ED4A1 /* Owner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Owner.m; sourceTree = "<group>"; };
+		EFE4F9FE1B064D8A003ED4A1 /* Repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repository.h; sourceTree = "<group>"; };
+		EFE4F9FF1B064D8A003ED4A1 /* Repository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repository.m; sourceTree = "<group>"; };
+		EFE4FA001B064D8A003ED4A1 /* RepositoryCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepositoryCollection.h; sourceTree = "<group>"; };
+		EFE4FA011B064D8A003ED4A1 /* RepositoryCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoryCollection.m; sourceTree = "<group>"; };
+		EFE4FA021B064D8A003ED4A1 /* URLResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLResource.h; sourceTree = "<group>"; };
+		EFE4FA031B064D8A003ED4A1 /* URLResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLResource.m; sourceTree = "<group>"; };
+		EFE4FA051B064D8A003ED4A1 /* RepositoryDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepositoryDataProvider.h; sourceTree = "<group>"; };
+		EFE4FA061B064D8A003ED4A1 /* RepositoryDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoryDataProvider.m; sourceTree = "<group>"; };
+		EFE4FA091B064D8A003ED4A1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFE4FA0A1B064D8A003ED4A1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFE4FA0C1B064D8A003ED4A1 /* RFWebServiceClient+RPRepositories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RFWebServiceClient+RPRepositories.h"; sourceTree = "<group>"; };
+		EFE4FA0D1B064D8A003ED4A1 /* RFWebServiceClient+RPRepositories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RFWebServiceClient+RPRepositories.m"; sourceTree = "<group>"; };
+		EFE4FA181B064DBA003ED4A1 /* RepositoryDataProviderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoryDataProviderTest.m; sourceTree = "<group>"; };
+		EFF6A8611B0931DF003D282A /* libPods-roadpg-libObjCAttr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-roadpg-libObjCAttr.a"; path = "Pods/build/Debug-iphoneos/libPods-roadpg-libObjCAttr.a"; sourceTree = "<group>"; };
+		EFF6A8621B0931DF003D282A /* libPods-roadpg-ROADFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-roadpg-ROADFramework.a"; path = "Pods/build/Debug-iphoneos/libPods-roadpg-ROADFramework.a"; sourceTree = "<group>"; };
+		EFF6A8631B0931DF003D282A /* libPods-roadpgTests-libObjCAttr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-roadpgTests-libObjCAttr.a"; path = "Pods/build/Debug-iphoneos/libPods-roadpgTests-libObjCAttr.a"; sourceTree = "<group>"; };
+		EFF6A8641B0931DF003D282A /* libPods-roadpgTests-ROADFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-roadpgTests-ROADFramework.a"; path = "Pods/build/Debug-iphoneos/libPods-roadpgTests-ROADFramework.a"; sourceTree = "<group>"; };
+		EFF6A8651B0931DF003D282A /* libPods-roadpgTests.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-roadpgTests.a"; path = "Pods/build/Debug-iphoneos/libPods-roadpgTests.a"; sourceTree = "<group>"; };
+		F419BEC49BBA6F82DEE82209 /* Pods-roadpg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-roadpg.release.xcconfig"; path = "Pods/Target Support Files/Pods-roadpg/Pods-roadpg.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +106,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		254AE92DC77F1698752D851A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFF6A8611B0931DF003D282A /* libPods-roadpg-libObjCAttr.a */,
+				EFF6A8621B0931DF003D282A /* libPods-roadpg-ROADFramework.a */,
+				EFF6A8631B0931DF003D282A /* libPods-roadpgTests-libObjCAttr.a */,
+				EFF6A8641B0931DF003D282A /* libPods-roadpgTests-ROADFramework.a */,
+				EFF6A8651B0931DF003D282A /* libPods-roadpgTests.a */,
+				430CD62E12C1D707278C643C /* libPods.a */,
+				A2195B26D182F4BC7D6010E0 /* libPods-roadpg.a */,
+				8013A4EE4778FD989CF993D5 /* libPods-roadpgTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		349C55A08662643649A767FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30E3C6891457B92604D011CB /* Pods-roadpgTests.debug.xcconfig */,
+				60A9E127A480C5FDADAA5EF2 /* Pods-roadpgTests.release.xcconfig */,
+				090F02C5B630A6C536D31011 /* Pods-roadpg.debug.xcconfig */,
+				F419BEC49BBA6F82DEE82209 /* Pods-roadpg.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EFE4F9C11B064646003ED4A1 = {
 			isa = PBXGroup;
 			children = (
 				EFE4F9CC1B064646003ED4A1 /* roadpg */,
 				EFE4F9E61B064646003ED4A1 /* roadpgTests */,
 				EFE4F9CB1B064646003ED4A1 /* Products */,
+				B59FA19FE041339DF829DBAB /* ROADGeneratedAttribute.m */,
+				349C55A08662643649A767FE /* Pods */,
+				254AE92DC77F1698752D851A /* Frameworks */,
+				03B156FD420A04F77979DA1D /* ROADGeneratedAttribute.m */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +157,9 @@
 		EFE4F9CC1B064646003ED4A1 /* roadpg */ = {
 			isa = PBXGroup;
 			children = (
+				EFE4F9F31B064D8A003ED4A1 /* Classes */,
 				EFE4F9D11B064646003ED4A1 /* AppDelegate.h */,
 				EFE4F9D21B064646003ED4A1 /* AppDelegate.m */,
-				EFE4F9D41B064646003ED4A1 /* ViewController.h */,
-				EFE4F9D51B064646003ED4A1 /* ViewController.m */,
 				EFE4F9D71B064646003ED4A1 /* Main.storyboard */,
 				EFE4F9DA1B064646003ED4A1 /* Images.xcassets */,
 				EFE4F9DC1B064646003ED4A1 /* LaunchScreen.xib */,
@@ -105,7 +180,7 @@
 		EFE4F9E61B064646003ED4A1 /* roadpgTests */ = {
 			isa = PBXGroup;
 			children = (
-				EFE4F9E91B064646003ED4A1 /* roadpgTests.m */,
+				EFE4FA181B064DBA003ED4A1 /* RepositoryDataProviderTest.m */,
 				EFE4F9E71B064646003ED4A1 /* Supporting Files */,
 			);
 			path = roadpgTests;
@@ -119,6 +194,81 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EFE4F9F31B064D8A003ED4A1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EFE4F9F41B064D8A003ED4A1 /* Model */,
+				EFE4FA041B064D8A003ED4A1 /* Providers */,
+				EFE4FA071B064D8A003ED4A1 /* Utility */,
+				EFE4FA081B064D8A003ED4A1 /* ViewControllers */,
+				EFE4FA0B1B064D8A003ED4A1 /* WebService */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EFE4F9F41B064D8A003ED4A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFE4F9F51B064D8A003ED4A1 /* RepositoryResponse */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFE4F9F51B064D8A003ED4A1 /* RepositoryResponse */ = {
+			isa = PBXGroup;
+			children = (
+				EFE4F9F61B064D8A003ED4A1 /* BaseModel.h */,
+				EFE4F9F71B064D8A003ED4A1 /* BaseModel.m */,
+				EFE4F9F81B064D8A003ED4A1 /* Clone.h */,
+				EFE4F9F91B064D8A003ED4A1 /* Clone.m */,
+				EFE4F9FA1B064D8A003ED4A1 /* Links.h */,
+				EFE4F9FB1B064D8A003ED4A1 /* Links.m */,
+				EFE4F9FC1B064D8A003ED4A1 /* Owner.h */,
+				EFE4F9FD1B064D8A003ED4A1 /* Owner.m */,
+				EFE4F9FE1B064D8A003ED4A1 /* Repository.h */,
+				EFE4F9FF1B064D8A003ED4A1 /* Repository.m */,
+				EFE4FA001B064D8A003ED4A1 /* RepositoryCollection.h */,
+				EFE4FA011B064D8A003ED4A1 /* RepositoryCollection.m */,
+				EFE4FA021B064D8A003ED4A1 /* URLResource.h */,
+				EFE4FA031B064D8A003ED4A1 /* URLResource.m */,
+			);
+			path = RepositoryResponse;
+			sourceTree = "<group>";
+		};
+		EFE4FA041B064D8A003ED4A1 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				EFE4FA051B064D8A003ED4A1 /* RepositoryDataProvider.h */,
+				EFE4FA061B064D8A003ED4A1 /* RepositoryDataProvider.m */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		EFE4FA071B064D8A003ED4A1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		EFE4FA081B064D8A003ED4A1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFE4FA091B064D8A003ED4A1 /* ViewController.h */,
+				EFE4FA0A1B064D8A003ED4A1 /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EFE4FA0B1B064D8A003ED4A1 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				EFE4FA0C1B064D8A003ED4A1 /* RFWebServiceClient+RPRepositories.h */,
+				EFE4FA0D1B064D8A003ED4A1 /* RFWebServiceClient+RPRepositories.m */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +276,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFE4F9ED1B064646003ED4A1 /* Build configuration list for PBXNativeTarget "roadpg" */;
 			buildPhases = (
+				59E2025B40DAD6C8673723E9 /* libObjCAttr - generate attributes */,
+				551F73D57DF93BBA0A5363CF /* Check Pods Manifest.lock */,
 				EFE4F9C61B064646003ED4A1 /* Sources */,
 				EFE4F9C71B064646003ED4A1 /* Frameworks */,
 				EFE4F9C81B064646003ED4A1 /* Resources */,
+				C72BB072162B8F7F8E8D0099 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +296,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFE4F9F01B064646003ED4A1 /* Build configuration list for PBXNativeTarget "roadpgTests" */;
 			buildPhases = (
+				946C85A43F598DB44F311402 /* libObjCAttr - generate attributes */,
+				4FC90EEBAFE7CF269A9FC800 /* Check Pods Manifest.lock */,
 				EFE4F9DF1B064646003ED4A1 /* Sources */,
 				EFE4F9E01B064646003ED4A1 /* Frameworks */,
 				EFE4F9E11B064646003ED4A1 /* Resources */,
+				5F4EAE541D7AC897488A4A66 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +370,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4FC90EEBAFE7CF269A9FC800 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		551F73D57DF93BBA0A5363CF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${SRCROOT}/Pods/../Podfile.lock\" \"${SRCROOT}/Pods/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		59E2025B40DAD6C8673723E9 /* libObjCAttr - generate attributes */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "libObjCAttr - generate attributes";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/libObjCAttr/tools/binaries/ROADAttributesCodeGenerator\" -src=\"${SRCROOT}/${TARGET_NAME}\" -src=\"${SRCROOT}/Pods\" -dst=\"${SRCROOT}/${TARGET_NAME}/ROADGeneratedAttributes/\"";
+		};
+		5F4EAE541D7AC897488A4A66 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-roadpgTests/Pods-roadpgTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		946C85A43F598DB44F311402 /* libObjCAttr - generate attributes */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "libObjCAttr - generate attributes";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/libObjCAttr/tools/binaries/ROADAttributesCodeGenerator\" -src=\"${SRCROOT}/${TARGET_NAME}\" -src=\"${PODS_ROOT}\" -dst=\"${SRCROOT}/${TARGET_NAME}/ROADGeneratedAttributes/\"";
+		};
+		C72BB072162B8F7F8E8D0099 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-roadpg/Pods-roadpg-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EFE4F9C61B064646003ED4A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFE4F9D61B064646003ED4A1 /* ViewController.m in Sources */,
+				EFE4FA0F1B064D8A003ED4A1 /* Clone.m in Sources */,
 				EFE4F9D31B064646003ED4A1 /* AppDelegate.m in Sources */,
+				EFE4FA151B064D8A003ED4A1 /* RepositoryDataProvider.m in Sources */,
 				EFE4F9D01B064646003ED4A1 /* main.m in Sources */,
+				EFE4FA101B064D8A003ED4A1 /* Links.m in Sources */,
+				EFE4FA111B064D8A003ED4A1 /* Owner.m in Sources */,
+				EFE4FA161B064D8A003ED4A1 /* ViewController.m in Sources */,
+				EFE4FA0E1B064D8A003ED4A1 /* BaseModel.m in Sources */,
+				EFE4FA131B064D8A003ED4A1 /* RepositoryCollection.m in Sources */,
+				EFE4FA171B064D8A003ED4A1 /* RFWebServiceClient+RPRepositories.m in Sources */,
+				EFE4FA141B064D8A003ED4A1 /* URLResource.m in Sources */,
+				103CFAC52695B947113DF8A5 /* ROADGeneratedAttribute.m in Sources */,
+				EFE4FA121B064D8A003ED4A1 /* Repository.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +486,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFE4F9EA1B064646003ED4A1 /* roadpgTests.m in Sources */,
+				EFE4FA191B064DBA003ED4A1 /* RepositoryDataProviderTest.m in Sources */,
+				154630C582B9FA7E1AF6D929 /* ROADGeneratedAttribute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +523,7 @@
 /* Begin XCBuildConfiguration section */
 		EFE4F9EB1B064646003ED4A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 090F02C5B630A6C536D31011 /* Pods-roadpg.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -307,6 +566,7 @@
 		};
 		EFE4F9EC1B064646003ED4A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F419BEC49BBA6F82DEE82209 /* Pods-roadpg.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -343,26 +603,37 @@
 		};
 		EFE4F9EE1B064646003ED4A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 090F02C5B630A6C536D31011 /* Pods-roadpg.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = roadpg/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		EFE4F9EF1B064646003ED4A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F419BEC49BBA6F82DEE82209 /* Pods-roadpg.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = roadpg/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		EFE4F9F11B064646003ED4A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E3C6891457B92604D011CB /* Pods-roadpgTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -382,6 +653,7 @@
 		};
 		EFE4F9F21B064646003ED4A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A9E127A480C5FDADAA5EF2 /* Pods-roadpgTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -414,6 +686,7 @@
 				EFE4F9EF1B064646003ED4A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFE4F9F01B064646003ED4A1 /* Build configuration list for PBXNativeTarget "roadpgTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +695,7 @@
 				EFE4F9F21B064646003ED4A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
